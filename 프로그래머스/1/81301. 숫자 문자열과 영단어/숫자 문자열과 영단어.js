@@ -16,7 +16,7 @@ function solution(s) {
     let string = s;
     Object.entries(number).forEach(([key,value])=>{
         string = string.replaceAll(key,value);
-    })
+    });
     answer = string;
     return Number(answer);
 }
